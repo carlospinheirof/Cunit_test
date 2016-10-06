@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "stack.c"
+#include "stack.h"
 #include <CUnit/CUnit.h>
 #include <CUnit/Basic.h>
 
@@ -39,7 +39,7 @@ int clean_test()
    	pop(stack);
    }
    free(stack);
-   return 0;
+   return 1;
 }
 
 int main()
