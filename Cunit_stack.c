@@ -13,7 +13,7 @@ int init_test()
 }
 void push_test() 
 {
-  // Check if first param matches with second[2]
+  //  Check if first param matches with second[2]
 	push(stack, 1);
 	CU_ASSERT_EQUAL(peek(stack), 1);
 	push(stack, 2);
